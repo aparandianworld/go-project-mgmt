@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	totalDiscount := defaults.Discount(defaults.ItemPrice, defaults.ItemDiscount)
+	totalDiscount := Discount(defaults.ItemPrice, defaults.ItemDiscount)
 	blackFridayDiscount := defaults.BlackFridayDiscount()
 	randomDiscount := defaults.RandomDiscount()
 
