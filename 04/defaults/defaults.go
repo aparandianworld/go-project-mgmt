@@ -27,5 +27,9 @@ func RandomDiscount() int {
 }
 
 func init() {
-	fmt.Println("Init() in defaults.go called...")
+	fmt.Println("Init() in defaults.go called number 1...")
+}
+
+func init() {
+	fmt.Println("Init() in defaults.go called number 2...")
 }
